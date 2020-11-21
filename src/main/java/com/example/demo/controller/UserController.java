@@ -14,7 +14,7 @@ public class UserController {
 
     @GetMapping("/jenkins")
     public String test1(){
-       return "部署jenkins完成3";
+       return "部署jenkinss完成3";
     }
 
 }
