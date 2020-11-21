@@ -9,7 +9,7 @@ public class UserController {
 
    @GetMapping("/test")
     public String test(){
-        return "部署jekins测试项目示例.";
+        return "部署jenkins测试项目示例.";
     }
 
 }
