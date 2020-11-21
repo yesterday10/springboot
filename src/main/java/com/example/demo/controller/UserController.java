@@ -12,4 +12,9 @@ public class UserController {
         return "部署jenkins测试项目示例.";
     }
 
+    @GetMapping("/jenkins")
+    public String test1(){
+       return "部署jenkins完成";
+    }
+
 }
